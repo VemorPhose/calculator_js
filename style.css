@@ -13,6 +13,7 @@ body {
     border-color: black;
     margin: auto;
     margin-top: 3%;
+    font-family: fantasy;
 }
 
 * {
@@ -42,7 +43,6 @@ body {
     border-radius: 15px;
     border-style: solid;
     border-color: black;
-    font-family: fantasy;
 }
 
 .buttonDiv {

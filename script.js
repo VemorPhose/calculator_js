@@ -143,6 +143,14 @@ function zero(){
     else document.getElementById("currentDisplay").innerHTML += '0';
 }
 
+let easterEggCnt = 0;
+function easterEgg(){
+    easterEggCnt++;
+    if (easterEggCnt == 69) {
+        document.body.style.fontFamily = 'sans-serif';
+    }
+}
+
 function add(){
     manageTotal();
     operand = 0;
