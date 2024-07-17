@@ -4,42 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Calculator</title>
 </head>
 <body>
     <div id="displayDiv">
-        <div id="lastDisplay">lastDisplay</div>
-        <div id="currentDisplay">currentDisplay</div>
+        <div id="totalDisplay">0</div>
+        <div id="currentDisplay">0</div>
     </div>
     <div class="buttonsHolderDiv">
-        <div class="buttonDiv"><button type="button" onclick="document.getElementById('displayDiv').innerHTML = '0'">AC</button></div>
-        <div class="buttonDiv">C</div>
-        <div class="buttonDiv"><=</div>
-        <div class="buttonDiv">/</div>
+        <div class="buttonDiv"><button type="button" onclick="ac()">AC</button></div>
+        <div class="buttonDiv"><button type="button" onclick="c()">C</button></div>
+        <div class="buttonDiv"><button type="button" onclick="bcksp()"><=</button></div>
+        <div class="buttonDiv"><button type="button" onclick="divide()">/</button></div>
     </div>
     <div class="buttonsHolderDiv">
-        <div class="buttonDiv">7</div>
-        <div class="buttonDiv">8</div>
-        <div class="buttonDiv">9</div>
-        <div class="buttonDiv">*</div>
+        <div class="buttonDiv"><button type="button" onclick="seven()">7</button></div>
+        <div class="buttonDiv"><button type="button" onclick="eight()">8</button></div>
+        <div class="buttonDiv"><button type="button" onclick="nine()">9</button></div>
+        <div class="buttonDiv"><button type="button" onclick="multiply()">*</button></div>
     </div>
     <div class="buttonsHolderDiv">
-        <div class="buttonDiv">4</div>
-        <div class="buttonDiv">5</div>
-        <div class="buttonDiv">6</div>
-        <div class="buttonDiv">+</div>
+        <div class="buttonDiv"><button type="button" onclick="four()">4</button></div>
+        <div class="buttonDiv"><button type="button" onclick="five()">5</button></div>
+        <div class="buttonDiv"><button type="button" onclick="six()">6</button></div>
+        <div class="buttonDiv"><button type="button" onclick="add()">+</button></div>
     </div>
     <div class="buttonsHolderDiv">
-        <div class="buttonDiv">1</div>
-        <div class="buttonDiv">2</div>
-        <div class="buttonDiv">3</div>
-        <div class="buttonDiv">-</div>
+        <div class="buttonDiv"><button type="button" onclick="one()">1</button></div>
+        <div class="buttonDiv"><button type="button" onclick="two()">2</button></div>
+        <div class="buttonDiv"><button type="button" onclick="three()">3</button></div>
+        <div class="buttonDiv"><button type="button" onclick="subtract()">-</button></div>
     </div>
     <div class="buttonsHolderDiv">
-        <div class="buttonDiv"></div>
-        <div class="buttonDiv">0</div>
-        <div class="buttonDiv">.</div>
-        <div class="buttonDiv">=</div>
+        <div class="buttonDiv"><button type="button" onclick="easterEgg()"></button></div>
+        <div class="buttonDiv"><button type="button" onclick="zero()">0</button></div>
+        <div class="buttonDiv"><button type="button" onclick="decimal()">.</button></div>
+        <div class="buttonDiv"><button type="button" onclick="equal()">=</button></div>
     </div>
 </body>
 </html>
